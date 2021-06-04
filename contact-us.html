@@ -14,22 +14,34 @@
 <body id="contact-page">
 
 <!--PLACE NAV HERE-->
-<nav>
-    <div class="col-12 bg-light p-3 border">
-        Cultural Cuisine
-    </div>
+<nav class="navbar navbar-expand-lg navbar-light " style="background-color: #FFE57C;">
+    <ul class="navbar-nav mx-auto">
+        <li class="nav-item">
+            <a class="nav-link" href="index.html">Homepage</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="about-us.html">About Us</a>
+        </li>
+        <img src="images/logo.png"></a>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Recipes</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="contact-us.html">Submit A Recipe</a>
+        </li>
+    </ul>
 </nav>
-<div class="container-fluid">
-<h1>Howdy!</h1>
 
-<!--    HEADER-->
+
 <section id="chef">
+    <div class="container-fluid py-4">
+        <h1>Recipe Submission</h1>
     <div class="dark-overlay">
        <div class="home-inner container">
                <div class="row">
-                   <div class="col-md-8 d-none d-md-block">
+                   <div class="col-lg-8 d-none d-md-block">
                       <h2 class="display-8">
-                          Would you like our <strong>chef's</strong> special?
+                          Would you like to <strong>submit a </strong> recipe?
                       </h2>
                        <div class="d-flex">
                            <div class="p-4 align-self-start">
@@ -41,12 +53,12 @@
                        </div>
                    </div>
 
-                   <div class="col-md-4">
-<div class="card bg-warning text-center card-form">
-    <div class="card-body">
-        <h3 class="display-8">I will have this instead.</h3>
-        <p>Please upload your recipe's/menu's photo</p>
-        <form action="#">
+                   <div class="col-lg-4">
+<div class="card bg-warning text-center card-form card-text">
+    <div class="card-body ">
+        <h3 class="display-8">This is my favourite.</h3>
+        <p>Please upload your recipe</p>
+        <form>
            <div class="form-group">
                <input type="text" class="form-control form-control-lg" placeholder="Fullname">
            </div>
@@ -56,7 +68,10 @@
             <div class="form-group">
                 <input type="text" class="form-control form-control-lg" placeholder="Upload Photo">
             </div>
-            <input type="submit" value="Send" class="btn btn-outline-light btn-block">
+            <div class="form-group">
+                <input type="text" class="form-control form-control-lg" placeholder="Upload Recipe">
+            </div>
+            <input type="submit" value="Submit" class="btn btn-outline-light btn-block">
         </form>
     </div>
 </div>
@@ -74,10 +89,130 @@
 </div>
 
 <!--PLACE FOOTER HERE-->
-<footer>
-    <div class="col-12 bg-light p-3 border">
-        Thanks for dining with us
+<!-- Footer -->
+<footer class="text-center text-lg-start bg-light text-muted">
+    <!-- Section: Social media -->
+    <section
+            class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
+    >
+        <!-- Left -->
+        <div class="me-5 d-none d-lg-block">
+            <span>Get connected with us on social networks:</span>
+        </div>
+        <!-- Left -->
+
+        <!-- Right -->
+        <div>
+            <a href="" class="me-4 text-reset">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="" class="me-4 text-reset">
+                <i class="fab fa-twitter"></i>
+            </a>
+            <a href="" class="me-4 text-reset">
+                <i class="fab fa-google"></i>
+            </a>
+            <a href="" class="me-4 text-reset">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="" class="me-4 text-reset">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="" class="me-4 text-reset">
+                <i class="fab fa-github"></i>
+            </a>
+        </div>
+        <!-- Right -->
+    </section>
+    <!-- Section: Social media -->
+
+    <!-- Section: Links  -->
+    <section class="">
+        <div class="container text-center text-md-start mt-5">
+            <!-- Grid row -->
+            <div class="row mt-3">
+                <!-- Grid column -->
+                <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                    <!-- Content -->
+                    <h6 class="text-uppercase fw-bold mb-4">
+                        <i class="fas fa-gem me-3"></i>Culture Cuisine
+                    </h6>
+                    <p>
+                        Discover the world through food and bring people together.
+                    </p>
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                    <!-- Links -->
+                    <h6 class="text-uppercase fw-bold mb-4">
+                        Influences
+                    </h6>
+                    <p>
+                        <a href="#!" class="text-reset">Mediterranean cuisine</a>
+                    </p>
+                    <p>
+                        <a href="#!" class="text-reset">African cuisine</a>
+                    </p>
+                    <p>
+                        <a href="#!" class="text-reset">Latin cuisine</a>
+                    </p>
+                    <p>
+                        <a href="#!" class="text-reset">Asian cuisine</a>
+                    </p>
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                    <!-- Links -->
+                    <h6 class="text-uppercase fw-bold mb-4">
+                        Useful links
+                    </h6>
+                    <p>
+                        <a href="#!" class="text-reset">Great Pricing</a>
+                    </p>
+                    <p>
+                        <a href="#!" class="text-reset">Kid friendly Settings</a>
+                    </p>
+                    <p>
+                        <a href="#!" class="text-reset">Delicious Recipes</a>
+                    </p>
+                    <p>
+                        <a href="#!" class="text-reset">Need help?</a>
+                    </p>
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                    <!-- Links -->
+                    <h6 class="text-uppercase fw-bold mb-4">
+                        Contact
+                    </h6>
+                    <p><i class="fas fa-home me-3"></i> Kon. Astridlaan 185, 9000 Gent</p>
+                    <p>
+                        <i class="fas fa-envelope me-3"></i>
+                        info@example.com
+                    </p>
+                    <p><i class="fas fa-phone me-3"></i> + 32 4 79 20 34 25</p>
+                    <p><i class="fas fa-print me-3"></i> + 32 4 71 77 48 02</p>
+                </div>
+                <!-- Grid column -->
+            </div>
+            <!-- Grid row -->
+        </div>
+    </section>
+    <!-- Section: Links  -->
+
+    <!-- Copyright -->
+    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+        © 2021 Copyright:
+        <a class="text-reset fw-bold" href="https://Culture Cuisine.com/">Culture Cuisine</a>
     </div>
+    <!-- Copyright -->
 </footer>
+<!-- Footer -->
 </body>
 </html>

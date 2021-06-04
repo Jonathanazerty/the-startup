@@ -9,19 +9,33 @@
 /*light:#e1d0c9*/
 /*dark:#453a12*/
 
-/* CONTACT US*/
-* {
-    /*border: 1px solid grey;*/
-}
-
-#contact-page {
-    font-family: 'Recursive', sans-serif;
-    color: #453a12;
-    font-size: 16px;
-}
-
 
 body {
     padding: 5px;
     background-color: #FF0000!important;
+    color: white!important;
+}
+
+.padding {
+    padding: 50px;
+}
+
+/* FORM */
+#contact-page {
+    font-family: 'Recursive', sans-serif;
+    /*color: #e1d0c9;*/
+    color: #453a12;
+    font-size: 16px;
+}
+
+#chef {
+    background: url(images/peas.jpg) no-repeat fixed;
+    /*background-repeat: no-repeat;*/
+    background-size: cover;
+    /*background-attachment: fixed;*/
+    min-height: 700px;
+}
+
+.card-text {
+    color: #453a12;
 }
