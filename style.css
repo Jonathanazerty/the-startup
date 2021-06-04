@@ -12,3 +12,7 @@
 /* CONTACT US*/
 
 
+body {
+    padding: 5px;
+    background-color: #FF0000!important;
+}
