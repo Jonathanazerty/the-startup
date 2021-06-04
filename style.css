@@ -4,11 +4,20 @@
 /*font-family: 'Recursive', sans-serif;*/
 
 /*COLOR*/
-/*orange: #ef7923*/
-/*red: #aa2208*/
+/*navbar color:#FFE57C*/
+/*background: #FF0000*/
 /*light:#e1d0c9*/
 /*dark:#453a12*/
 
 /* CONTACT US*/
+* {
+    /*border: 1px solid grey;*/
+}
+
+#contact-page {
+    font-family: 'Recursive', sans-serif;
+    color: #453a12;
+    font-size: 16px;
+}
 
 
