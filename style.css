@@ -20,8 +20,12 @@
     font-size: 16px;
 }
 
-
 body {
     padding: 5px;
     background-color: #FF0000!important;
+    color: white!important;
+}
+
+.padding {
+    padding: 50px;
 }
