@@ -20,7 +20,7 @@ body {
     padding: 50px;
 }
 
-/* FORM */
+/* FORM PAGE */
 #contact-page {
     font-family: 'Recursive', sans-serif;
     /*color: #e1d0c9;*/
@@ -31,7 +31,7 @@ body {
 }
 
 #chef {
-    background: url(images/bigbite.jpg) no-repeat fixed;
+    background: url(images/peas.jpg) no-repeat fixed center;
     /*background-repeat: no-repeat;*/
     background-size: cover;
     /*background-attachment: fixed;*/
@@ -56,6 +56,11 @@ opacity: 0.8;
     border-radius: 5px;
 }
 
+/*FORM BOX*/
 .card-text {
     color: #453a12;
+}
+
+.card-form input{
+    border: none;
 }
