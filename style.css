@@ -39,3 +39,7 @@ body {
 .card-text {
     color: #453a12;
 }
+
+.buttoncard {
+    border: none
+}
