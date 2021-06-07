@@ -35,13 +35,13 @@ body {
     /*background-repeat: no-repeat;*/
     background-size: cover;
     /*background-attachment: fixed;*/
-    height: 600px;
+    height: 500px;
     /*background-size: 100% 100%;*/
 }
 
 #chef .dark-overlay {
     background-color: rgba(0,0,0,0.6);
-    height: 600px;
+    height: 500px;
     width: 100%;
 }
 
@@ -62,5 +62,17 @@ opacity: 0.8;
 }
 
 .card-form input{
-    border: none;
+    border: 1px solid #58d43a;
+}
+
+.card-form input[type='submit'] {
+    color: #FF0000;
+    background-color: #FFE57C;
+}
+
+.card-form input[type='submit']:hover,
+.card-form input[type='submit']:focus{
+    border: 1px solid #58d43a;
+    background-color: #58d43a;
+    color: #fff;
 }
