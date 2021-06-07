@@ -31,17 +31,17 @@ body {
 }
 
 #chef {
-    background: url(images/peas.jpg) no-repeat fixed;
+    background: url(images/bigbite.jpg) no-repeat fixed;
     /*background-repeat: no-repeat;*/
     background-size: cover;
     /*background-attachment: fixed;*/
-    min-height: 600px;
+    height: 600px;
+    /*background-size: 100% 100%;*/
 }
 
 #chef .dark-overlay {
     background-color: rgba(0,0,0,0.6);
-    height: auto;
-    min-height: 600px;
+    height: 600px;
     width: 100%;
 }
 
@@ -53,7 +53,7 @@ opacity: 0.8;
     color: #FF0000;
     background-color: #FFE57C;
     padding: 5px;
-border-radius: 5px;
+    border-radius: 5px;
 }
 
 .card-text {
