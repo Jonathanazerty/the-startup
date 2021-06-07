@@ -20,26 +20,64 @@ body {
     padding: 50px;
 }
 
-/* FORM */
+/* FORM PAGE */
 #contact-page {
     font-family: 'Recursive', sans-serif;
     /*color: #e1d0c9;*/
     color: #453a12;
     font-size: 16px;
+    padding: 0;
+    height: 100%;
 }
 
 #chef {
-    background: url(images/peas.jpg) no-repeat fixed;
+    background: url(images/peas.jpg) no-repeat fixed center;
     /*background-repeat: no-repeat;*/
     background-size: cover;
     /*background-attachment: fixed;*/
-    min-height: 700px;
+    height: 500px;
+    /*background-size: 100% 100%;*/
 }
 
+#chef .dark-overlay {
+    background-color: rgba(0,0,0,0.6);
+    height: 500px;
+    width: 100%;
+}
+
+#chef .card-form {
+opacity: 0.8;
+}
+
+#chef .fas {
+    color: #FF0000;
+    background-color: #FFE57C;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+/*FORM BOX*/
 .card-text {
     color: #453a12;
 }
 
+
 .buttoncard {
     border: none
+        }
+
+.card-form input{
+    border: 1px solid #58d43a;
+}
+
+.card-form input[type='submit'] {
+    color: #FF0000;
+    background-color: #FFE57C;
+}
+
+.card-form input[type='submit']:hover,
+.card-form input[type='submit']:focus{
+    border: 1px solid #58d43a;
+    background-color: #58d43a;
+    color: #fff;
 }
