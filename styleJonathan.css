@@ -3,10 +3,7 @@ p {
     box-sizing: border-box;
     background-color: #FFE57C;
     color: #d13131;
-    padding-left: 4vh;
-    padding-top: 4vh;
-    padding-bottom: 4vh;
-    padding-right: 4vh;
+    padding: 25px 25px 25px 25px;
     border-radius: 20px;
     box-shadow: 5px 10px 18px #960202;
 }
@@ -31,7 +28,7 @@ img.logo {
     border-radius: 5px;
 }
 
-p.footer {
+.footer {
     box-sizing: none;
     box-shadow: none;
 }
