@@ -19,6 +19,21 @@ body {
     padding: 50px;
 }
 
+
+
+.link {
+    background-color: #FFE57C;
+    border-radius: 25px;
+    padding: 5px;
+    border: solid 1px white;
+    color: #ce2828;
+}
+
+.cardlink {
+    padding: 5px;
+    color: #ce2828;
+}
+
 /* FORM PAGE */
 #page {
     font-family: 'Recursive', sans-serif;
