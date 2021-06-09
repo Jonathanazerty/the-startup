@@ -23,15 +23,6 @@ Culture cusisine will introduce you to the recipes all over the world. You will 
 [![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs)
 
   
-## Contributing
-
-Contributions are always welcome!
-
-See `contributing.md` for ways to get started.
-
-Please adhere to this project's `code of conduct`.
-
-  
 ## Feedback
 
 If you have any feedback, please reach out to us through issues.
