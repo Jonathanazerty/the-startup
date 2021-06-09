@@ -18,9 +18,7 @@ Culture cusisine will introduce you to the recipes all over the world. You will 
 - [@LujiAnna](https://github.com/LujiAnna)
 
   
-## Badges
-
-Add badges from somewhere like: [shields.io](https://shields.io/)
+## Licence
 
 [![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs)
 
